@@ -315,6 +315,8 @@ position: relative;
     .display{
         display: grid;
     }
+    
+ 
     .contenedor{
         grid-template-columns: repeat(2, 1fr);
         background-color: antiquewhite;
@@ -331,7 +333,8 @@ position: relative;
 }
 
 /* media query hacia MOBILE */
-@media (max-width: 768px){
+@media (max-width: 768px)
+{
     header{
         background-size: 100%;
     }
@@ -349,6 +352,24 @@ position: relative;
     }
 
     .hijo{
+        object-fit: contain;
+    }
+
+    .card-display{
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card{
+     
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+    .card img{  
+        min-width: 0;
         object-fit: contain;
     }
 
