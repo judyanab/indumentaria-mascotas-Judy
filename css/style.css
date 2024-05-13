@@ -1,9 +1,9 @@
-/* estilos generales  */
+/* estilos generales  
 *{  margin: 0;
     padding: 0;
     /* box-sizing: border-box;  */
     /* para que me quede bien padding */
-}
+/* }
 
 a:hover{
     color: blanchedalmond;
@@ -14,7 +14,8 @@ a:hover{
 .focus:focus{
     border: 2px solid coral;
     outline: 1px ;
-}
+} */
+
 
 
 header{
@@ -302,9 +303,6 @@ position: relative;
     place-self: flex-start center;
     padding-bottom: 10px;
 }
-
-
-
 /*  media query hacia tablet*/
 
 @media (max-width: 1024px){
@@ -316,7 +314,6 @@ position: relative;
         display: grid;
     }
     
- 
     .contenedor{
         grid-template-columns: repeat(2, 1fr);
         background-color: antiquewhite;

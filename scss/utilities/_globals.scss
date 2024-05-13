@@ -1,0 +1,15 @@
+//estilos generales  
+*{  margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    color: blanchedalmond;
+    background-color: darksalmon;
+    border: 2px solid darksalmon;
+}
+
+.focus:focus{
+    border: 2px solid coral;
+    outline: 1px ;
+}
