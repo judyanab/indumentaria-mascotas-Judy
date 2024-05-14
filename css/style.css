@@ -18,61 +18,51 @@ a:hover{
 
 
 
-header{
-    /* position: sticky; */
+/* header{
     top: 0px;
     z-index: 1;
     display: flex;
     padding: 30px;
     background-color: white;
-    /* background-position-y: -100px; */
     background-repeat: no-repeat;
     background-size:100%;
     background-attachment: fixed;
     margin-bottom: 2px;
     justify-content: space-evenly;
     align-items:center;
-}
-header img{
+} */
+/* header img{
     width: 50px;
-}
+} */
 /* le saco puntitos a la lista */
-header nav ul{ 
+/* header nav ul{ 
     list-style: none;
-    /* todo texto mayuscula */
     text-transform: uppercase; 
-    display: flex; /*por defecto flex direction en row*/
-    /* flex-wrap: wrap; responsive */
-    column-gap: 100px; /*espacio entre col*/
+    display: flex; 
+    column-gap: 100px; 
     row-gap: 30px;
-}
+} */
 
 /* le estoy diciendo específicamente donde quiero aplicar estilo clase 2 2:05 h */
 
-header nav ul li a{ 
+/* header nav ul li a{ 
     color: black;
-    /* le saco el subrayado */
     text-decoration: none;
     font-family: robotos;
     font-size: larger;
-}
+} */
 
 /* llamo a fuentes descargadas */
 @font-face {
     font-family: robotos;
-    /* fuente descargada lo declaro con un nombre ej roboto y lo llamo así despues */
     src: url(./../assets/fonts/Roboto-BoldItalic.ttf);
 }
 /* le agrego mi estilo a todo el html  */
 html{
         color: black;
         font-family: robotos;
-        /*font-family: "Titillium Web", sans-serif;
-        /* espesor de la fuente */
         font-weight: 400;
-        /* estilo de la fuente */
         font-style:inherit;  
-        
 }
 
 /* Main index*/
@@ -304,12 +294,13 @@ position: relative;
     padding-bottom: 10px;
 }
 /*  media query hacia tablet*/
-
+/* 
 @media (max-width: 1024px){
     header nav ul{    
         display: grid; 
         grid-template-columns: repeat(2, 1fr);
     }
+    
     .display{
         display: grid;
     }
@@ -327,32 +318,32 @@ position: relative;
     .logo{
         padding-left: 0;
     }
-}
+} */
 
 /* media query hacia MOBILE */
-@media (max-width: 768px)
-{
-    header{
+/* @media (max-width: 768px)
+{ */
+    /* header{
         background-size: 100%;
     }
 
     header nav ul{    
         display: flex; 
         flex-direction: column;
-    }
+    } */
  
-    .display{
+    /* .display{
         display: grid;
         padding-left: 0;
         align-items: start;
         justify-content:initial;
-    }
+    } */
 
-    .hijo{
+    /* .hijo{
         object-fit: contain;
-    }
+    } */
 
-    .card-display{
+    /* .card-display{
         padding-left: 0;
         align-items: center;
         justify-content: center;
@@ -369,11 +360,12 @@ position: relative;
         min-width: 0;
         object-fit: contain;
     }
+     */
 
-    .contenedor{
+    /* .contenedor{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);   
-        /* height: 100%; */
+       
     }
     .hijo-grid{
         grid-column: span 1;
@@ -387,5 +379,5 @@ position: relative;
     }
     .logo{
         padding-left: 0;
-    }
-}
+    } */
+/* } */

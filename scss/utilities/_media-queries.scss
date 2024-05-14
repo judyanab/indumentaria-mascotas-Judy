@@ -1,0 +1,87 @@
+
+@media (max-width: 1024px){
+    header {
+        nav
+        { ul{    
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+    //nosotros
+    .display{
+        display: grid;
+    }
+    
+    //locales
+    .contenedor{
+        grid-template-columns: repeat(2, 1fr);
+        background-color: antiquewhite;
+        .hijo-grid{
+            grid-column: span 2;
+        }
+        .hijo-grid4 {
+            visibility: hidden;
+        }
+    }
+}
+
+@media (max-width: 768px)
+{
+    header{
+        background-size: 100%;
+        nav{
+            ul{
+                display: flex; 
+                flex-direction: column;
+            }
+        }
+    }
+   //nosotros
+    .display{
+        display: grid;
+        padding-left: 0;
+        align-items: start;
+        justify-content:initial;
+        .hijo{
+            object-fit: contain;
+        }
+    }
+    //productos 
+
+    .card-display{
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card{
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        img{  
+            min-width: 0;
+            object-fit: contain;
+        }
+    }
+    
+    //locales
+    .contenedor{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);   
+        .hijo-grid{
+            grid-column: span 1;
+        }    
+    }
+   
+    //contacto 
+    .formulario{
+        grid-template-columns: repeat(1, 1fr);
+        .margen-row{
+            margin-left: 0;
+        }
+    }
+    
+}
+
