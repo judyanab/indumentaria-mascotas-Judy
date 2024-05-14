@@ -53,17 +53,17 @@ a:hover{
 } */
 
 /* llamo a fuentes descargadas */
-@font-face {
+/* @font-face {
     font-family: robotos;
     src: url(./../assets/fonts/Roboto-BoldItalic.ttf);
-}
+} */
 /* le agrego mi estilo a todo el html  */
-html{
+/* html{
         color: black;
         font-family: robotos;
         font-weight: 400;
         font-style:inherit;  
-}
+} */
 
 /* Main index*/
 .position-relative{
@@ -104,15 +104,15 @@ html{
 }
 
 /* footer */
-footer img{
+/* footer img{
     width: 30px;
     height: 30px;
     margin-top: 15px;
     margin-bottom: 0px;
     margin: 5px;
    
-}
-.logo{
+} */
+/* .logo{
     padding-left: 100px;
 } 
 
@@ -124,23 +124,23 @@ footer div {
 footer div div li {
     list-style: none;
     
-}
+} */
 
-footer div div li a{
+/* footer div div li a{
     color: black;
     text-decoration: none;
     font-family: robotos;
 
-}
+} */
 
-footer ul li  h1{
+/* footer ul li  h1{
     font-size: 20px;
-}
-
+} */
+/* 
 footer ul li  img{
     margin: 0;
 
-}
+} */
 
 /* main NOSOTROS */
 .display{
