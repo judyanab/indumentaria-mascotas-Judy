@@ -1,3 +1,25 @@
 .main-locales{
-    
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10px;
+    align-items: center;
+    justify-items: center;
+    font-family: robotos;
+    .hijo-grid{
+        grid-column: span 3;
+        .titulo-donde-estamos{
+            font-size: xx-large;
+            text-align: justify;
+            font-family: robotos;
+            padding: 15px;
+        }
+    }
+    .hijo-grid1{
+        color: black;
+    }
+    .hijo-grid4{
+        place-self: flex-start center;
+        padding-bottom: 10px;
+    }
 }

@@ -86,6 +86,57 @@ header nav ul li a {
   border-radius: 8px 8px 8px 8px;
 }
 
+.main-contacto .formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: antiquewhite;
+  align-items: center;
+  color: brown;
+  padding: 40px;
+  justify-content: center;
+}
+.main-contacto .formulario .margen-row {
+  margin-left: 120px;
+}
+.main-contacto .formulario .margen-row h1 {
+  font-size: x-large;
+}
+.main-contacto .formulario .form-row .form-group textarea {
+  width: 95%;
+  height: 228px;
+  margin-top: 50px;
+}
+.main-contacto .formulario .form-row .form-group .boton {
+  margin-top: 20px;
+  width: 90px;
+}
+
+.main-locales {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 10px;
+  align-items: center;
+  justify-items: center;
+  font-family: robotos;
+}
+.main-locales .hijo-grid {
+  grid-column: span 3;
+}
+.main-locales .hijo-grid .titulo-donde-estamos {
+  font-size: xx-large;
+  text-align: justify;
+  font-family: robotos;
+  padding: 15px;
+}
+.main-locales .hijo-grid1 {
+  color: black;
+}
+.main-locales .hijo-grid4 {
+  place-self: flex-start center;
+  padding-bottom: 10px;
+}
+
 footer div {
   padding-top: 10px;
   justify-content: center;

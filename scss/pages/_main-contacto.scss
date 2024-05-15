@@ -1,7 +1,33 @@
 .main-contacto{
-    .banner{
-        .position-relative{
-            
-        }
+    .formulario{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);    
+        background-color: antiquewhite;
+        align-items:center;
+        color: brown;    
+        padding: 40px;
+        justify-content: center;
+            .margen-row{
+                margin-left: 120px;
+                h1{
+                    font-size: x-large;
+                }
+
+                }
+            .form-row{
+                .form-group{
+                    textarea{
+                        width: 95%;
+                        height: 228px;
+                        margin-top: 50px;
+                    }
+                    .boton{
+                        margin-top: 20px;
+                        width:90px;
+                    }
+                }
+            }
+
+            }
+
     }
-}

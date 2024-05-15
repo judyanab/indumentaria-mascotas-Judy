@@ -239,7 +239,7 @@ position: relative;
 /* main contacto */
     
 
-.formulario{
+/* .formulario{
     display: grid;
     grid-template-columns: repeat(2, 1fr);    
     background-color: antiquewhite;
@@ -247,58 +247,55 @@ position: relative;
     color: brown;    
     padding: 40px;
     justify-content: center;
-}
+} */
 
-.formulario div h1{
+/* .formulario div h1{
     font-size: x-large;
-}
+} */
 
-.formulario div textarea{
+/* .formulario div textarea{
     width: 95%;
     height: 228px;
     margin-top: 50px;
-}
-.margen-row{
+} */
+/* .margen-row{
     margin-left: 120px;
-}
-.boton{
+} */
+/* .boton{
     margin-top: 20px;
     width:90px;
-}
+} */
 
 /* MAIN LOCALES*/
 
-.contenedor{
+/* .contenedor{
     background-color: antiquewhite;
     display: grid;
-    /* width: 80vw; */
-    /* grid-template-columns: 30% 30% 30%;  */
-    /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(3, 1fr);
     padding-left: 10px;
     align-items: center;
     justify-items: center;
     font-family: robotos;
-}
-.hijo-grid{
+} */
+/* .hijo-grid{
     grid-column: span 3;
 
-}
-.titulo-donde-estamos{
+} */
+/* .titulo-donde-estamos{
     font-size: xx-large;
     text-align: justify;
     font-family: robotos;
     padding: 15px;
     
-}
-.hijo-grid1{
+} */
+/* .hijo-grid1{
     color: black;
-}
+} */
 
-.hijo-grid4{
+/* .hijo-grid4{
     place-self: flex-start center;
     padding-bottom: 10px;
-}
+} */
 /*  media query hacia tablet*/
 /* 
 @media (max-width: 1024px){
