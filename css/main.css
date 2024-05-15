@@ -250,15 +250,15 @@ footer div div li a {
     display: flex;
     flex-direction: column;
   }
-  .contenedor {
+  .main-locales {
     grid-template-columns: repeat(2, 1fr);
     background-color: antiquewhite;
     padding-left: 0;
   }
-  .contenedor .hijo-grid {
+  .main-locales .hijo-grid {
     grid-column: span 2;
   }
-  .contenedor .hijo-grid4 {
+  .main-locales .hijo-grid4 {
     visibility: hidden;
   }
 }
@@ -298,31 +298,31 @@ footer div div li a {
     min-width: 0;
     object-fit: contain;
   }
-  .contenedor {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    align-items: center;
-    justify-content: last baseline;
-  }
-  .contenedor .hijo-grid {
-    grid-column: span 1;
-    height: 20%;
-  }
-  .contenedor .hijo-grid1 {
-    text-align: start;
-    justify-content: center;
-  }
-  .contenedor .hijo-grid4 {
-    height: 60px;
-  }
-  .contenedor .titulo-donde-estamos {
-    font-size: 1.7rem;
-  }
   .main-contacto .formulario {
     grid-template-columns: repeat(1, 1fr);
   }
   .main-contacto .formulario .margen-row {
     margin-left: 0;
+  }
+  .main-locales {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-content: last baseline;
+  }
+  .main-locales .hijo-grid {
+    grid-column: span 1;
+    height: 20%;
+  }
+  .main-locales .hijo-grid1 {
+    text-align: start;
+    justify-content: center;
+  }
+  .main-locales .hijo-grid4 {
+    height: 60px;
+  }
+  .main-locales .titulo-donde-estamos {
+    font-size: 1.7rem;
   }
 }
 
