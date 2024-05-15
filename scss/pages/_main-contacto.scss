@@ -2,9 +2,9 @@
     .formulario{
         display: grid;
         grid-template-columns: repeat(2, 1fr);    
-        background-color: antiquewhite;
+        background-color: $color-body;
         align-items:center;
-        color: brown;    
+        color: nth($list: $colores-texto, $n:6);    
         padding: 40px;
         justify-content: center;
             .margen-row{

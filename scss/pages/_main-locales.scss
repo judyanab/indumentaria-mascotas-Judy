@@ -1,5 +1,5 @@
 .main-locales{
-    background-color: antiquewhite;
+    background-color: $color-body;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 10px;
@@ -16,7 +16,7 @@
         }
     }
     .hijo-grid1{
-        color: black;
+        color: nth($list: $colores-texto, $n:7 );
     }
     .hijo-grid4{
         place-self: flex-start center;

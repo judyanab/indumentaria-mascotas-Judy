@@ -1,13 +1,13 @@
 .main-productos{
     .card-display{
-        background-color: antiquewhite;
+        background-color: $color-body;
         padding-left: 70px;
         padding-bottom: 10px;
         .card{
             width: 90%;
             max-width: 350px;
             margin: 20px;
-            border: 1px solid red;
+            border: 1px solid nth($list: $colores-texto, $n: 5);
             border-radius: 20px 0 20px 0;
             text-align: center;
             background-color: white;
@@ -25,20 +25,20 @@
             }
             h4{
                 font-size: large;
-                color: brown;
+                color: nth($list: $colores-texto, $n:6 );
             }
             p{
-                color: brown;
+                color: nth($list: $colores-texto, $n:6 );
                 margin: 0;
             }
             .card-body{
                 border-radius: 0px 0 20px 0;
-                border: 1px solid red;
+                border: 1px solid nth($list: $colores-texto, $n: 5);
                 padding: 1%;
                 font-family: robotos;
             }
             .descuento{
-                color: rgb(226, 14, 14);
+                color: nth($list: $colores-texto, $n:5 );
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -46,6 +46,8 @@
                 background-color: rgb(230, 198, 148);
                 border-radius: 0 0 0 9px;
                 font-family: robotos;
+                height: 25px;
+                width: 80px;
             }
         }
     }

@@ -18,7 +18,7 @@
     //locales
     .main-locales{
         grid-template-columns: repeat(2, 1fr);
-        background-color: antiquewhite;
+        background-color: $color-body;
         padding-left: 0;
         .hijo-grid{ 
             grid-column: span 2;

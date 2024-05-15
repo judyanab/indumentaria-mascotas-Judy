@@ -5,12 +5,12 @@
 
 a:hover{
     color: blanchedalmond;
-    background-color: darksalmon;
-    border: 2px solid darksalmon;
+    background-color: nth($list: $colores-texto, $n:3 );
+    border: 2px solid nth($list: $colores-texto, $n:3);
 }
 
 .focus:focus{
-    border: 2px solid coral;
+    border: 2px solid nth($list: $colores-texto, $n:4);
     outline: 1px ;
 }
 
