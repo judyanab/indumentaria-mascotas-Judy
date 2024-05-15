@@ -318,10 +318,10 @@ footer div div li a {
   .contenedor .titulo-donde-estamos {
     font-size: 1.7rem;
   }
-  .formulario {
+  .main-contacto .formulario {
     grid-template-columns: repeat(1, 1fr);
   }
-  .formulario .margen-row {
+  .main-contacto .formulario .margen-row {
     margin-left: 0;
   }
 }

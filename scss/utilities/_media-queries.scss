@@ -13,7 +13,6 @@
     .display{
         display: flex;
         flex-direction: column;
-       
     }
     
     //locales
@@ -109,12 +108,13 @@
     }
    
     //contacto 
-    .formulario{
-        grid-template-columns: repeat(1, 1fr);
-        .margen-row{
-            margin-left: 0;
+    .main-contacto{
+        .formulario{
+            grid-template-columns: repeat(1, 1fr);
+            .margen-row{
+                margin-left: 0;
+            }
         }
     }
-    
 }
 
