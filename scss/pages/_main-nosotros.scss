@@ -1,3 +1,31 @@
 .main-nosotros{
+    .display{
+        background-color: antiquewhite;
+        column-gap: 10px;
+        padding-left: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .hijo{
+            margin: 10px;
+            box-shadow: 4px -1px 20px 6px rgba(196,187,212,0.75);
+            -webkit-box-shadow: 4px -1px 20px 6px rgba(196,187,212,0.75);
+            -moz-box-shadow: 4px -1px 20px 6px rgba(196,187,212,0.75);
+            img{
+                width:max-content;
+                height: 400px;
+            }
+        }
+        .hijo-2{
+            font-family: robotos;
+            margin: 10px;
+            box-shadow: 4px -1px 20px 6px rgba(196,187,212,0.75);
+            -webkit-box-shadow: 4px -1px 20px 6px rgba(196,187,212,0.75);
+            -moz-box-shadow: 4px -1px 20px 6px rgba(196,187,212,0.75);
+            p{
+                padding: 10px;
+            }
+        }
+    }
     
 }
