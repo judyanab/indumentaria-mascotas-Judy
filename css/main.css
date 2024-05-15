@@ -55,6 +55,37 @@ header nav ul li a {
   font-size: larger;
 }
 
+.main-index .banner .position-relative {
+  position: relative;
+  height: 430px;
+}
+.main-index .banner .position-relative img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-index .banner .position-relative .position-absolute {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 60px;
+}
+.main-index .banner .position-relative .position-absolute h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: wheat;
+}
+.main-index .banner .position-relative .position-absolute a {
+  text-decoration: none;
+  font-size: 20px;
+  color: wheat;
+  background-color: rgb(105, 34, 34);
+  padding: 10px;
+  border-radius: 8px 8px 8px 8px;
+}
+
 footer div {
   padding-top: 10px;
   justify-content: center;
@@ -85,11 +116,13 @@ footer div div li a {
     grid-template-columns: repeat(2, 1fr);
   }
   .display {
-    display: grid;
+    display: flex;
+    flex-direction: column;
   }
   .contenedor {
     grid-template-columns: repeat(2, 1fr);
     background-color: antiquewhite;
+    padding-left: 0;
   }
   .contenedor .hijo-grid {
     grid-column: span 2;
@@ -106,14 +139,19 @@ footer div div li a {
     display: flex;
     flex-direction: column;
   }
-  .display {
-    display: grid;
+  .main-nosotros .display {
     padding-left: 0;
-    align-items: start;
-    justify-content: initial;
   }
-  .display .hijo {
+  .main-nosotros .display .hijo img {
     object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .main-nosotros .display .hijo-2 p {
+    text-align: justify;
+    padding: 3%;
+    margin: 0;
   }
   .card-display {
     padding-left: 0;
@@ -132,9 +170,22 @@ footer div div li a {
   .contenedor {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-content: last baseline;
   }
   .contenedor .hijo-grid {
     grid-column: span 1;
+    height: 20%;
+  }
+  .contenedor .hijo-grid1 {
+    text-align: start;
+    justify-content: center;
+  }
+  .contenedor .hijo-grid4 {
+    height: 60px;
+  }
+  .contenedor .titulo-donde-estamos {
+    font-size: 1.7rem;
   }
   .formulario {
     grid-template-columns: repeat(1, 1fr);

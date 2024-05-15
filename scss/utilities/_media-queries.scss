@@ -11,18 +11,22 @@
 
     //nosotros
     .display{
-        display: grid;
+        display: flex;
+        flex-direction: column;
+       
     }
     
     //locales
     .contenedor{
         grid-template-columns: repeat(2, 1fr);
         background-color: antiquewhite;
-        .hijo-grid{
+        padding-left: 0;
+        .hijo-grid{ 
             grid-column: span 2;
         }
         .hijo-grid4 {
             visibility: hidden;
+        
         }
     }
 }
@@ -39,15 +43,29 @@
         }
     }
    //nosotros
+   .main-nosotros{
     .display{
-        display: grid;
         padding-left: 0;
-        align-items: start;
-        justify-content:initial;
         .hijo{
-            object-fit: contain;
+           
+            img{
+                object-fit: contain;
+                width: 100%;
+                height:auto;
+                margin: 0;
+            }
+        }
+        .hijo-2{
+            p{
+                text-align:justify;
+                padding: 3%;
+                margin: 0;
+            }
         }
     }
+
+   }
+   
     //productos 
 
     .card-display{
@@ -70,9 +88,24 @@
     .contenedor{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);   
+        align-items:center;
+        justify-content: last baseline;
         .hijo-grid{
             grid-column: span 1;
+            height: 20%;
+            
         }    
+        .hijo-grid1{
+           text-align:start;
+           justify-content: center;
+
+        }
+        .hijo-grid4{
+            height: 60px;
+        }
+        .titulo-donde-estamos{
+            font-size: 1.7rem;
+        }
     }
    
     //contacto 
