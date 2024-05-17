@@ -25,6 +25,19 @@ html {
   font-style: inherit;
 }
 
+.boton {
+  margin-top: 20px;
+  background-color: rgb(170, 71, 71);
+  border: 2px solid rgb(165, 39, 39);
+  width: 90px;
+  color: wheat;
+  font-family: robotos;
+}
+.boton:hover {
+  background-color: rgb(194, 109, 109);
+  border: 2px solid rgb(165, 39, 39);
+}
+
 header {
   top: 0px;
   z-index: 1;
@@ -105,10 +118,6 @@ header nav ul li a {
   width: 95%;
   height: 228px;
   margin-top: 50px;
-}
-.main-contacto .formulario .form-row .form-group .boton {
-  margin-top: 20px;
-  width: 90px;
 }
 
 .main-locales {

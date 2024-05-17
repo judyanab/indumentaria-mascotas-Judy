@@ -25,3 +25,17 @@ html{
     font-weight: 400;
     font-style:inherit;  
 }
+
+.boton{
+    margin-top: 20px;
+    background-color: map-get($map: $boton-estandar, $key: color-estandar);
+    border: map-get($map: $boton-estandar , $key: borde-estandar);
+    width: map-get($map: $boton-estandar, $key: width-estandar);
+    &:hover{ 
+            background-color: map-get($map: $boton-estandar, $key: hover-estandar);
+            border: map-get($map: $boton-estandar , $key: borde-estandar);;
+        }
+    color: map-get($map: $boton-estandar, $key: color-fuente-estandar);
+    font-family: robotos;
+
+}
