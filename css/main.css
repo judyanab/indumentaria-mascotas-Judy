@@ -312,17 +312,17 @@ footer div div li a {
     padding: 3%;
     margin: 0;
   }
-  .card-display {
+  .main-productos .card-display {
     padding-left: 0;
     align-items: center;
     justify-content: center;
   }
-  .card {
+  .main-productos .card-display .card {
     align-items: center;
     justify-content: center;
     max-width: 100%;
   }
-  .card img {
+  .main-productos .card-display .card img {
     min-width: 0;
     object-fit: contain;
   }

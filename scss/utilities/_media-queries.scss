@@ -65,21 +65,22 @@
         }
     }
     //productos 
-
+.main-productos{
     .card-display{
         padding-left: 0;
         align-items: center;
         justify-content: center;
-    }
-    .card{
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-        img{  
-            min-width: 0;
-            object-fit: contain;
+        .card{
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            img{  
+                min-width: 0;
+                object-fit: contain;
+            }
+            }
         }
-    }
+}
     //contacto 
     .main-contacto{
         .formulario{
