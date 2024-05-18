@@ -98,7 +98,7 @@ header nav ul li a {
   border-radius: 8px 8px 8px 8px;
 }
 .main-index .banner .position-relative .position-absolute a:hover {
-  border: 2px solid brown;
+  border: 3px solid brown;
 }
 
 .main-contacto .formulario {
