@@ -22,7 +22,9 @@ header{
         column-gap: 100px; 
         row-gap: 30px;
             li{
-                a{  color: black;
+                a{   
+                    &:hover {@extend %estilo-hover};
+                    color: black;
                     text-decoration: none;
                     font-family: robotos;
                     font-size: larger;}

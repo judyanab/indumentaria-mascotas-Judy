@@ -1,0 +1,5 @@
+%estilo-hover{
+    color: blanchedalmond;
+    background-color: nth($list: $colores-texto, $n:3 );
+    border: 2px solid nth($list: $colores-texto, $n:3);
+}

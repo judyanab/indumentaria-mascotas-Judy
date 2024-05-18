@@ -1,12 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-a:hover {
+.main-index .banner .position-relative .position-absolute a:hover, header nav ul li a:hover {
   color: blanchedalmond;
   background-color: darksalmon;
   border: 2px solid darksalmon;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .focus:focus {
@@ -67,7 +67,6 @@ header nav ul li a {
   font-family: robotos;
   font-size: larger;
 }
-
 .main-index .banner .position-relative {
   position: relative;
   height: 430px;
@@ -97,6 +96,9 @@ header nav ul li a {
   background-color: brown;
   padding: 10px;
   border-radius: 8px 8px 8px 8px;
+}
+.main-index .banner .position-relative .position-absolute a:hover {
+  border: 2px solid brown;
 }
 
 .main-contacto .formulario {

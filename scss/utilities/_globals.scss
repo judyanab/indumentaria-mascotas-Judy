@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-a:hover{
-    color: blanchedalmond;
-    background-color: nth($list: $colores-texto, $n:3 );
-    border: 2px solid nth($list: $colores-texto, $n:3);
-}
+// a:hover{
+//     color: blanchedalmond;
+//     background-color: nth($list: $colores-texto, $n:3 );
+//     border: 2px solid nth($list: $colores-texto, $n:3);
+// }
 
 .focus:focus{
     border: 2px solid nth($list: $colores-texto, $n:4);
