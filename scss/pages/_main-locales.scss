@@ -1,6 +1,6 @@
 .main-locales{
     background-color: $color-body;
-    @include display(grid, center,center);
+    @include display(grid, center, null);
     grid-template-columns: repeat(3, 1fr);
     padding-left: 10px;
     justify-items: center;

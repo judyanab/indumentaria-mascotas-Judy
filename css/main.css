@@ -124,7 +124,6 @@ header nav ul li a {
   background-color: antiquewhite;
   display: grid;
   align-items: center;
-  justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   padding-left: 10px;
   justify-items: center;
