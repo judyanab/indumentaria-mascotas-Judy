@@ -1,9 +1,8 @@
 .main-locales{
     background-color: $color-body;
-    display: grid;
+    @include display(grid, center,center);
     grid-template-columns: repeat(3, 1fr);
     padding-left: 10px;
-    align-items: center;
     justify-items: center;
     font-family: robotos;
     .hijo-grid{

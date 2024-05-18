@@ -41,15 +41,15 @@ html {
 header {
   top: 0px;
   z-index: 1;
-  display: flex;
   padding: 30px;
   background-color: white;
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   margin-bottom: 2px;
-  justify-content: space-evenly;
+  display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 header img {
   width: 50px;
@@ -101,12 +101,12 @@ header nav ul li a {
 
 .main-contacto .formulario {
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   background-color: antiquewhite;
-  align-items: center;
   color: brown;
   padding: 40px;
-  justify-content: center;
 }
 .main-contacto .formulario .margen-row {
   margin-left: 120px;
@@ -123,9 +123,10 @@ header nav ul li a {
 .main-locales {
   background-color: antiquewhite;
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   padding-left: 10px;
-  align-items: center;
   justify-items: center;
   font-family: robotos;
 }
@@ -230,6 +231,7 @@ header nav ul li a {
 
 footer div {
   padding-top: 10px;
+  padding-left: 120px;
   justify-content: center;
   align-items: center;
 }
@@ -250,6 +252,21 @@ footer div div li a {
   color: black;
   text-decoration: none;
   font-family: robotos;
+}
+
+.darksalmon {
+  background-color: darksalmon;
+  color: black;
+}
+
+.salmon {
+  background-color: salmon;
+  color: black;
+}
+
+.wheat {
+  background-color: wheat;
+  color: black;
 }
 
 @media (max-width: 1024px) {

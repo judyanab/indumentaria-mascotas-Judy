@@ -3,9 +3,7 @@
         background-color: $color-body;
         column-gap: 10px;
         padding-left: 5%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include display(flex, center,center);
         .hijo{
             margin: 10px;
             box-shadow: 4px -1px 20px 6px rgba(196,187,212,0.75);

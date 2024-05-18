@@ -1,5 +1,6 @@
 @import "./utilities/variables";
 @import "./utilities/globals";
+@import "./utilities/mixin.scss";
 @import "./components/header";
 @import "./pages/main-index";
 @import "./pages/main-contacto";
@@ -7,4 +8,5 @@
 @import "./pages/main-nosotros";
 @import "./pages/main-productos";
 @import "./components/footer";
+@import "./utilities/loop.scss";
 @import "./utilities/media-queries";

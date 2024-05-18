@@ -1,12 +1,11 @@
 .main-contacto{
     .formulario{
-        display: grid;
+        @include display(grid,center,center);
         grid-template-columns: repeat(2, 1fr);    
-        background-color: $color-body;
-        align-items:center;
+        background-color: $color-body;   
         color: nth($list: $colores-texto, $n:6);    
         padding: 40px;
-        justify-content: center;
+
             .margen-row{
                 margin-left: 120px;
                 h1{
