@@ -4,6 +4,15 @@
   border: 2px solid darksalmon;
 }
 
+.main-productos .card-display h1, .main-locales .hijo-grid h1 {
+  font-size: xx-large;
+  text-align: justify;
+  font-family: robotos;
+  padding: 15px;
+  margin-left: 10px;
+  color: brown;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -134,12 +143,6 @@ header nav ul li a {
 .main-locales .hijo-grid {
   grid-column: span 3;
 }
-.main-locales .hijo-grid .titulo-donde-estamos {
-  font-size: xx-large;
-  text-align: justify;
-  font-family: robotos;
-  padding: 15px;
-}
 .main-locales .hijo-grid1 {
   color: black;
 }
@@ -173,6 +176,12 @@ header nav ul li a {
   -webkit-box-shadow: 4px -1px 20px 6px rgba(196, 187, 212, 0.75);
   -moz-box-shadow: 4px -1px 20px 6px rgba(196, 187, 212, 0.75);
 }
+.main-nosotros .display .hijo-2 .nosotros {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: large;
+  font-style: italic;
+}
 .main-nosotros .display .hijo-2 p {
   padding: 10px;
 }
@@ -185,7 +194,7 @@ header nav ul li a {
 .main-productos .card-display .card {
   width: 90%;
   max-width: 350px;
-  margin: 20px;
+  margin: 10px;
   border: 1px solid red;
   border-radius: 20px 0 20px 0;
   text-align: center;
