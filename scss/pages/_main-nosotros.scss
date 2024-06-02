@@ -2,7 +2,6 @@
     .display{
         background-color: $color-body;
         column-gap: 10px;
-        padding-left: 5%;
         @include display(flex, center,center);
         .hijo{
             margin: 10px;
