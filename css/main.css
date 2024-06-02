@@ -1,4 +1,4 @@
-.main-index .banner .position-relative .position-absolute a:hover, header nav ul li a:hover {
+.main-index .banner .position-absolute a:hover, header nav ul li a:hover {
   color: beige;
   background: radial-gradient(wheat, darksalmon);
   padding: 8px;
@@ -89,7 +89,7 @@ header nav ul li a {
   height: 100%;
   object-fit: cover;
 }
-.main-index .banner .position-relative .position-absolute {
+.main-index .banner .position-absolute {
   position: absolute;
   top: 0;
   width: 100%;
@@ -97,12 +97,12 @@ header nav ul li a {
   text-align: center;
   padding-top: 60px;
 }
-.main-index .banner .position-relative .position-absolute h1 {
+.main-index .banner .position-absolute h1 {
   font-size: 40px;
   margin-bottom: 40px;
   color: wheat;
 }
-.main-index .banner .position-relative .position-absolute a {
+.main-index .banner .position-absolute a {
   text-decoration: none;
   font-size: 20px;
   color: wheat;
@@ -110,7 +110,7 @@ header nav ul li a {
   padding: 10px;
   border-radius: 8px 8px 8px 8px;
 }
-.main-index .banner .position-relative .position-absolute a:hover {
+.main-index .banner .position-absolute a:hover {
   border: 3px solid brown;
 }
 
@@ -171,6 +171,11 @@ header nav ul li a {
 .main-nosotros .display .hijo img {
   width: max-content;
   height: 400px;
+  transition: 3s;
+}
+.main-nosotros .display .hijo img:hover {
+  transform: rotate(5deg);
+  transition: 3s;
 }
 .main-nosotros .display .hijo-2 {
   font-family: robotos;
