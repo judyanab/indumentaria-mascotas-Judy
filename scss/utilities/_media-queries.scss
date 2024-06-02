@@ -1,7 +1,7 @@
 
 @media (max-width: 1024px){
     header {
-        nav
+        nav    
         { ul{    
             display: grid; 
             grid-template-columns: repeat(2, 1fr);
@@ -34,15 +34,43 @@
 {
     header{
         background-size: 100%;
-        nav{
-            ul{
-                display: flex; 
-                flex-direction: column;
-            }
-            }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        padding: 0;
+        img{
+            margin-left: 25px;
         }
-    //index
+        label { 
+            display: block;
+            margin-right: 25px;
+        }
+        .menu{
+            position: absolute;
+            top: 100px;
+            z-index: 1;
+            align-items: center;
+            background-color: antiquewhite;
+            width: 100%;
+            visibility: hidden;
+            transition: visibility 1s, opacity 1s ease;
+            opacity: 0;
+           
+            ul{
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;   
+                align-items: center;
+                }         
+           
+        }
+        #btn-menu:checked ~ .menu{
+            visibility: visible;
+            opacity: 1;
+        }
 
+        }
    //nosotros
     .main-nosotros{
         .display{
@@ -113,8 +141,6 @@
             font-size: 1.7rem;
         }
     }  
-
-
 
 }
 
