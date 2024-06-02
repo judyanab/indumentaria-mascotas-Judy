@@ -24,11 +24,13 @@
                     text-decoration: none;
                     font-size: 20px;
                     color: wheat;
-                    background-color: nth($list: $colores-texto, $n:6 );
+                    // background-color:  nth($list: $colores-texto, $n:6 );
+                    background: linear-gradient(to top, nth($list: $colores-texto, $n:6 ), nth($list: $colores-texto, $n:3 ));
                     &:hover {@extend %estilo-hover};
                     &:hover {border: 3px solid nth($list: $colores-texto, $n:6)};
                     padding: 10px;
                     border-radius: 8px 8px 8px 8px;
+                    
                 }
             }
         }
